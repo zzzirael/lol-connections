@@ -26,16 +26,16 @@
         "items": ["Shen", "Poppy", "Malphite", "Braum"],
         "level": 1
       },
-      "HABILIDADES COM SILENCE": {
-        "items": ["Malzahar", "Soraka", "Kassadin", "Cho'Gath"],
+      "CHAMPIONS WITH SILENCE HABILITIES": {
+        "items": ["Malzahar", "Viktor", "Kassadin", "Cho'Gath"],
         "level": 2
       },
-      "CAMPEÕES VOID": {
+      "CHAMPIONS WITH ' ON THEIR NAME": {
         "items": ["Cho'Gath", "Kog'Maw", "Kai'Sa", "Vel'Koz"],
         "level": 3
       },
-      "CHAMPIONS WITH GHOSTS": {
-        "items": ["Mordekaiser", "Yorick", "Hecarim", "Kindred"],
+      "CHAMPIONS WITH ATACK RANGE BUFFS IN THEIR KIT ": {
+        "items": ["Caitlyn", "Tristana", "Aphelios", "Kindred"],
         "level": 4
       }
     }

@@ -1,0 +1,47 @@
+{
+  "2025-08-15": {
+    "groups": {
+      "ITENS WITH BURN": {
+        "items": ["Bami's Cinder", "Sunfire Aegis", "Liandry's Anguish", "Hollow Radiance"],
+        "level": 1
+      },
+      "FRELJORD CHAMPIONS": {
+        "items": ["Braum", "Ashe", "Lissandra", "Trundle"],
+        "level": 2
+      },
+      "CHAMPIONS THAT EAT SOMETHING": {
+        "items": ["Gangplank", "Tahm Kench", "Cho'Gath", "Nunu & Willump"],
+        "level": 3
+      },
+      "CHAMPIONS WITH SKILL RESETS": {
+        "items": ["Katarina", "Master Yi", "Darius", "Pyke"],
+        "level": 4
+      }
+
+  }},
+    
+ "2025-08-16": {
+    "groups": {
+      "CHAMPIONS COM ESCUDO": {
+        "items": ["Shen", "Poppy", "Malphite", "Braum"],
+        "level": 1
+      },
+      "HABILIDADES COM SILENCE": {
+        "items": ["Malzahar", "Soraka", "Kassadin", "Cho'Gath"],
+        "level": 2
+      },
+      "CAMPEÕES VOID": {
+        "items": ["Cho'Gath", "Kog'Maw", "Kai'Sa", "Vel'Koz"],
+        "level": 3
+      },
+      "CHAMPIONS WITH GHOSTS": {
+        "items": ["Mordekaiser", "Yorick", "Hecarim", "Kindred"],
+        "level": 4
+      }
+    }
+  }
+  
+}
+
+
+

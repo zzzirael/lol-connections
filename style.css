@@ -1,0 +1,147 @@
+/* fonte do league */
+@import url('https://fonts.googleapis.com/css2?family=Beaufort+for+LOL:wght@400;700&display=swap');
+
+body {
+    font-family: 'Beaufort for LOL', sans-serif;
+    background-color: #010a13;
+    color: #c4b998;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #f0e6d2;
+    font-weight: 700;
+}
+
+#grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    width: 100%;
+    max-width: 450px;
+    margin-bottom: 20px;
+}
+
+.grid-item {
+    background-color: #091428;
+    border: 1px solid #1e283a;
+    border-radius: 5px;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.2s;
+    text-align: center;
+    padding: 5px;
+    box-sizing: border-box; /* garante que o padding nao aumente o tamanho */
+}
+
+.grid-item img {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 5px;
+}
+
+.grid-item span {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #f0e6d2;
+}
+
+.grid-item.selected {
+    background-color: #c4b998;
+    color: #010a13;
+    border-color: #f0e6d2;
+    transform: scale(1.05);
+}
+
+.grid-item.selected span {
+    color: #010a13;
+}
+
+#mistakes-container {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#mistakes-dots {
+    display: flex;
+    gap: 5px;
+}
+
+.mistake-dot {
+    width: 15px;
+    height: 15px;
+    background-color: #1e283a;
+    border-radius: 50%;
+}
+
+.button-container {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+button {
+    font-family: 'Beaufort for LOL', sans-serif;
+    background-color: #0a323c;
+    color: #c4b998;
+    border: 2px solid #285060;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #1a5c6e;
+}
+
+#feedback-message {
+    height: 20px;
+    font-weight: 700;
+    color: #f0e6d2;
+}
+
+#solved-groups-container {
+    width: 100%;
+    max-width: 450px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.solved-group {
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+    color: #010a13;
+}
+
+.solved-group h3 {
+    margin: 0 0 5px 0;
+    text-transform: uppercase;
+}
+
+.solved-group p {
+    margin: 0;
+    font-weight: 700;
+}

@@ -1,7 +1,7 @@
 {
   "2025-08-15": {
     "groups": {
-      "ITENS WITH BURN": {
+      "ITEMS WITH BURN": {
         "items": ["Bami's Cinder", "Sunfire Aegis", "Liandry's Anguish", "Hollow Radiance"],
         "level": 1
       },
@@ -27,14 +27,14 @@
         "level": 1
       },
       "CHAMPIONS WITH SILENCE HABILITIES": {
-        "items": ["Malzahar", "Viktor", "Kassadin", "Cho'Gath"],
+        "items": ["Malzahar", "Viktor", "Kassadin", "Soraka"],
         "level": 2
       },
       "CHAMPIONS WITH ' ON THEIR NAME": {
         "items": ["Cho'Gath", "Kog'Maw", "Kai'Sa", "Vel'Koz"],
         "level": 3
       },
-      "CHAMPIONS WITH ATACK RANGE BUFFS IN THEIR KIT ": {
+      "CHAMPIONS WITH ATACK RANGE BUFFS IN THEIR KIT": {
         "items": ["Caitlyn", "Tristana", "Aphelios", "Kindred"],
         "level": 4
       }

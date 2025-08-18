@@ -219,7 +219,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
     function toggleInfiniteMode() {
         isInfiniteMode = !isInfiniteMode;
-        infiniteModeButton.textContent = `Modo Infinito: ${isInfiniteMode ? 'Ativado' : 'Desativado'}`;
+        infiniteModeButton.textContent = `Unlimited Mode: ${isInfiniteMode ? 'On' : 'Off'}`;
         infiniteModeButton.classList.toggle('active', isInfiniteMode);
         updateMistakesDisplay();
     }

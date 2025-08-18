@@ -39,6 +39,26 @@
         "level": 4
       }
     }
+  },
+   "2025-08-17": {
+    "groups": {
+      "CHAMPIONS WITH CLONES": {
+        "items": ["Wukong", "LeBlanc", "Neeko", "Shaco"],
+        "level": 1
+      },
+      "CHAMPIONS THAT USE A HELMET": {
+        "items": ["Zed", "Kassadin", "Jax", "Jarvan IV"],
+        "level": 2
+      },
+      "CHAMPIONS THAT CHANGE BETWEEN MELEE AND RANGED": {
+        "items": ["Kayle", "Nidalee", "Jayce", "Elise"],
+        "level": 3
+      },
+      "CHAMPIONS WITH NO DASH ABILITIES": {
+        "items": ["Garen", "Gangplank", "Cho'Gath", "Heimerdinger"],
+        "level": 4
+      }
+    }
   }
   
 }
